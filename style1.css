@@ -40,5 +40,25 @@ a{
     padding: 2px 0;
     height: 28px;
 }
+img{
+    height:auto;
+    width:100%;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
 
-
+}
+.card1,.card2,.card3,.card4,.card5,.card6{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1c1d1e;
+    color: #f1f5f3;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    font-weight: bold;
+}
